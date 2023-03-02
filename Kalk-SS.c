@@ -33,7 +33,7 @@ int main() {
             printf("Hasil %d / %d = %.2f", iA, iB, (float)iA/iB);
             break;
         case 'e':
-            printf("Hasil pembagian (integer): %d", iA / iB);
+            printf("Hasil %d / %d = %d", iA, iB, (int)iA/iB);
             break;
         case '%':
             printf("Hasil %d mod %d = %d", iA, iB, iA%iB);
