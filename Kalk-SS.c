@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &iA);
     printf("Masukkan bilangan kedua: ");
     scanf("%d", &iB);
-    printf("Pilih operasi (+,-,*,/,%): ");
+    printf("Pilih operasi (+,-,*,/,%,e): ");
     scanf(" %c", &pilihan);
 
     // Validasi bilangan bulat positif
@@ -31,6 +31,9 @@ int main() {
             break;
         case '/':
             printf("Hasil %d / %d = %.2f", iA, iB, (float)iA/iB);
+            break;
+        case 'e':
+            printf("Hasil pembagian (integer): %d", iA / iB);
             break;
         case '%':
             printf("Hasil %d mod %d = %d", iA, iB, iA%iB);
